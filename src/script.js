@@ -29,7 +29,7 @@ $(document).ready(function () {
        activeExtension = localStorage.getItem("activeExtension");
        console.log(activeSr);
        console.log(activeExtension);
-       if (activeExtension === 'true') {
+       if (activeExtension === 'true' && split.length > 3 && split[3] == 'comments') {
            triggerSearch();
            setInterval(myTimer, 1000);
        }
