@@ -1,0 +1,13 @@
+.user-anchor-blacklisted {
+    background-color: yellow!important;
+    color: red!important;
+}
+.user-div-blacklisted {
+    border-style: solid;
+    border-color: red;
+    border-width: thick;
+}
+.user-span-blacklisted {
+    border-style: solid;
+    padding-right: 4px;
+}
